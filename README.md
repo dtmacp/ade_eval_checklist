@@ -1,6 +1,6 @@
 # Adaptation of CheckList for ADE Detection
 
-This project adapts [CheckList](https://github.com/marcotcr/checklist)<sup>1</sup>, a behavioural testing approach, to the task of Adverse Drug Effect (ADE) detection. 
+This project adapts [CheckList](https://github.com/marcotcr/checklist)<sup>1</sup>, a behavioural testing approach by Ribeiro et al. 2020, to the task of Adverse Drug Effect (ADE) detection. 
 
 An ADE is any harmful consequence from medical drug intake. This project focusses on detecting ADEs in user-generated reports as can be found on social media. The ADE detection task is framed as a binary classification task (ADE/no ADE). CheckList was used to inspire capability-based testing of a model for ADE detection. Tested capabilities include temporal order, positive sentiment, beneficial effect, and negation. Templates are created and used to prepare test cases that cover the four capabilities. An example is given below:
 
